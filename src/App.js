@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css'
+import { Form, Result } from './components'
+import { useState } from 'react'
 
-function App() {
+export default function App() {
+  let [zodiac, setZodiac] = useState('aries')
+  let [day, setDay] = useState('today')
+  let [result, setResult] = useState(null)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>ASTROLOGICA</h1>
+      <Form zodiac={zodiac} setZodiac={setZodiac} day={day} setDay={setDay} setResult={setResult}/>
+      <br />
+      <Result zodiac={zodiac} day={day} result={result}/>
     </div>
   );
 }
-
-export default App;
