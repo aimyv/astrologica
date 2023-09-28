@@ -2,19 +2,20 @@ import React from 'react'
 import axios from 'axios'
 import './style.css'
 
-export default function index({zodiac, setZodiac, day, setDay, setResult}) {
+export default function index({zodiac, setZodiac, day, setDay, setResult, setShow}) {
 
     function handleZodiac(e) {
         setZodiac(e.target.value)
+        setShow(false)
     }
 
     function handleDay(e) {
         setDay(e.target.value)
+        setShow(false)
     }
 
     async function handleSubmit(e) {
         e.preventDefault()
-        // const data = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${zodiac}&day=${day}`)
         const options = {
             method: 'GET',
             url: 'https://cors-proxy4.p.rapidapi.com/',
@@ -27,8 +28,8 @@ export default function index({zodiac, setZodiac, day, setDay, setResult}) {
             }
         };
         const data = await axios.request(options)
-        console.log(data.data.data.horoscope_data)
         setResult(data.data.data.horoscope_data)
+        setShow(true)
     }
 
     return (
