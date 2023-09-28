@@ -3,11 +3,10 @@ import './style.css'
 
 export default function index({zodiac, day, result}) {
     return (
-        <div>
-            {zodiac.toUpperCase()}
+        <div id='description'>
+            <div id='sign'>{zodiac.toUpperCase()}</div>
+            <div id='current_day'>{day.charAt(0).toUpperCase() + day.slice(1)}'s Horoscope</div>
             <br />
-            {day.charAt(0).toUpperCase() + day.slice(1)}'s Horoscope
-            <br /><br />
             {result}
         </div>
     )

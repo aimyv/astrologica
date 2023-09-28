@@ -1,3 +1,22 @@
 body {
     color: white;
 }
+
+#sign {
+    font-size: 150%;
+    text-align: center;
+}
+
+#current_day {
+    font-size: 125%;
+    text-align: center;
+}
+
+#description {
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: #d7b6975b;
+    padding: 10px;
+    font-size: 150%;
+    text-align: justify;
+}
