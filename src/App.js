@@ -8,8 +8,10 @@ export default function App() {
   let [result, setResult] = useState(null)
   return (
     <div className="App">
-      <h1>ASTROLOGICA</h1>
-      <Form zodiac={zodiac} setZodiac={setZodiac} day={day} setDay={setDay} setResult={setResult}/>
+      <div className='container'>
+        <h1>ASTROLOGICA</h1>
+        <Form zodiac={zodiac} setZodiac={setZodiac} day={day} setDay={setDay} setResult={setResult}/>
+      </div>
       <br />
       <Result zodiac={zodiac} day={day} result={result}/>
     </div>

@@ -2,4 +2,16 @@
 
 body {
     font-family: 'MuseoModerno', cursive;
+    background-color: #133E36;
+}
+
+h1 {
+    font-size: 400%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
 }
