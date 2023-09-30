@@ -7,7 +7,7 @@ export default function index({zodiac, day, result}) {
             <div id='sign'>{zodiac.toUpperCase()}</div>
             <div id='current_day'>{day.charAt(0).toUpperCase() + day.slice(1)}'s Horoscope</div>
             <br />
-            {result}
+            <div id='reading'>{result}</div>
         </div>
     )
 }

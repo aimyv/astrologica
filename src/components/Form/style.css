@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
 form {
-    border: solid 1px black;
+    border: solid 2px #b4a3fc;
     border-radius: 10px;
     padding: 10px;
     width: 30%;
-    margin: auto 10px;
-    background-color: white;
+    margin: auto 20px;
+    background-color: #b3a3fc3b;
+}
+
+select {
+    background-color: #100822a9;
+    color: white;
 }
 
 select, input {
     font-size: 110%;
     width: 100%;
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px #b4a3fc;
     border-radius: 5px;
     font-family: 'MuseoModerno', cursive;
     margin: 5px auto;
 }
 
 input {
-    background-color: #D7B697;
+    background-color: #b4a3fc;
+    color: #100822;
+}
+
+input:hover {
+    background-color: #100822;
+    color: white;
 }
