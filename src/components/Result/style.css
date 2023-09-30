@@ -5,12 +5,12 @@ body {
 #sign {
     font-size: 300%;
     text-align: center;
+    text-decoration-line: underline;
 }
 
 #current_day {
     font-size: 200%;
     text-align: center;
-    font-style: italic;
 }
 
 #description {

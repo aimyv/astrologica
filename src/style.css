@@ -3,15 +3,12 @@
 
 body {
     font-family: 'MuseoModerno', cursive;
-    /* background-color: #133E36; */
     background-color: #100822;
-    /* padding: 20px; */
     margin: 0;
 }
 
 h1 {
     font-size: 400%;
-    /* color: white; */
     color: #b4a3fc;
     margin-left: 20px;
 }

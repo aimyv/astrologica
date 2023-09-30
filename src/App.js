@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="App">
       <div className='container'>
-        <h1>ASTROLOGICA</h1>
+        <h1>✦ ASTROLOGICA ✦</h1>
         <Form zodiac={zodiac} setZodiac={setZodiac} day={day} setDay={setDay} setResult={setResult} setShow={setShow}/>
       </div>
       <br />
