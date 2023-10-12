@@ -18,3 +18,24 @@
 #reading {
     font-size: 150%;
 }
+
+@media only screen and (max-width: 500px) {
+    #sign {
+        font-size: 250%;
+    }
+    #current_day {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #sign {
+        font-size: 200%;
+    }
+    #current_day {
+        font-size: 150%;
+    }
+    #reading {
+        font-size: 100%;
+    }
+}
