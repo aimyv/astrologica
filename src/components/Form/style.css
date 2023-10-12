@@ -33,3 +33,10 @@ input:hover {
     background-color: #100822;
     color: white;
 }
+
+@media only screen and (max-width: 750px) {
+    form {
+        width: 60%;
+        margin: auto;
+    }   
+}
