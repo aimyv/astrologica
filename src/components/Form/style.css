@@ -14,7 +14,8 @@ select {
     color: white;
 }
 
-select, input {
+select,
+input {
     font-size: 110%;
     width: 100%;
     text-align: center;
@@ -27,16 +28,16 @@ select, input {
 input {
     background-color: #b4a3fc;
     color: #100822;
+    border: none;
 }
 
 input:hover {
-    background-color: #100822;
-    color: white;
+    background-color: #a591fe;
 }
 
 @media only screen and (max-width: 750px) {
     form {
         width: 60%;
         margin: auto;
-    }   
+    }
 }

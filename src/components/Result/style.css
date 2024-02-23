@@ -13,6 +13,7 @@
     background-color: #b4a3fc;
     padding: 10px;
     text-align: justify;
+    height: 50vh;
 }
 
 #reading {
@@ -23,9 +24,11 @@
     #sign {
         font-size: 175%;
     }
+
     #current_day {
         font-size: 150%;
     }
+
     #reading {
         font-size: 125%;
     }
@@ -35,9 +38,11 @@
     #sign {
         font-size: 150%;
     }
+
     #current_day {
         font-size: 125%;
     }
+
     #reading {
         font-size: 100%;
     }
